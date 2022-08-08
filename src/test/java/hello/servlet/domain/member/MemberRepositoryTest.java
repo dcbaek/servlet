@@ -34,7 +34,6 @@ class MemberRepositoryTest {
     void findAll() {
         Member member1 = new Member("member1", 20);
         Member member2 = new Member("member2", 20);
-
         memberRepository.save(member1);
         memberRepository.save(member2);
 
